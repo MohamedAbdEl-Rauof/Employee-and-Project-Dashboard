@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Project CRUD</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+	<h1>Project CRUD</h1>
+
+	<!-- Form to create a new project -->
+	<h2>Create</h2>
+	<form id="create-form">
+		<label for="pno-input">PNO:</label>
+		<input type="number" id="pno-input" name="pno" required><br>
+		<label for="pname-input">PName:</label>
+		<input type="text" id="pname-input" name="pname" required><br>
+		<label for="plocation-input">PLocation:</label>
+		<input type="text" id="plocation-input" name="plocation" required><br>
+		<label for="dno-input">DNO:</label>
+		<input type="number" id="dno-input" name="dno" required><br>
+		<button type="submit">Create</button>
+	</form>
+
+	<!-- Table to display existing projects -->
+	<h2>Read</h2>
+	<table id="project-table">
+		<thead>
+			<tr>
+				<th>PNO</th>
+				<th>PName</th>
+				<th>PLocation</th>
+				<th>DNO</th>
+				<th>Actions</th>
+			</tr>
+		</thead>
+		<tbody>
+		</tbody>
+	</table>
+
+	
+
+</body>
+</html>
